@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+// resolves to calc display in shared
+// will have it included in tests
 import CalculatorDisplay from 'calculator-display'
+// jest will have to do something fancy for jest here
 import styles from './calculator.module.css'
 
 function CalculatorKey({className = '', ...props}) {
